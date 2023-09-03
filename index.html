@@ -84,7 +84,7 @@ function lanjut(){document.getElementById('lanjut').style.display = "none";docum
     if(a==textakhir.length){
     fotoKt();
     document.getElementById("text3").innerHTML = "&#10084;&#10084;&#10084;";
-    document.getElementById("textakhir").innerHTML = "Oh iya, Oh iya, Hari ini aku lumayan sibuk, Maaf kalau ga spam chat kayak biasanya yaa :v";
+    document.getElementById("textakhir").innerHTML = "Oh iya, Hari ini aku lumayan sibuk, Maaf kalau ga spam chat kayak biasanya yaa :v";
     }
   }
   async function siap() {
@@ -137,7 +137,7 @@ var audio = new Audio('https://audio.jukehost.co.uk/uzdg9cSesYgAMEraKaoP7XWm0jhX
             }
             async function kuis(){
                            var { value: persen } = await swals.fire({
-                            title: 'Seberapa risih kamu ' + nama + ' sama Aku?',
+                            title: 'Seberapa risih ' + nama + ' sama Aku?',
                             input: 'range', inputLabel: 'Antara 0-100% ya', inputAttributes: {min: 0, max: 100,},
                             allowOutsideClick: false, inputValue: 50
                         });
@@ -145,7 +145,7 @@ var audio = new Audio('https://audio.jukehost.co.uk/uzdg9cSesYgAMEraKaoP7XWm0jhX
                         	document.getElementById("sp1").innerHTML = nama + " &#128155;";
                         	text = "Selamat Pagi, " + nama + "! Jangan lupa sarapan yaaa~         ";
                         	text2 = "Semangat jalani harinya, Jaga kesehatanmu yaaa...             ";
-                            textakhir = "Oh iya, Oh iya, Hari ini aku lumayan sibuk, Maaf kalau ga spam chat kayak biasanya yaa :v      ";
+                            textakhir = "Oh iya, Hari ini aku lumayan sibuk, Maaf kalau ga spam chat kayak biasanya yaa :v      ";
                             ketik();showDiv();play();
                     }}
 </script>
